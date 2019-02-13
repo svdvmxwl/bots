@@ -10,14 +10,16 @@ import yaml
 import pymongo
 import logging
 
-client=pymongo.MongoClient()
-db_dev=client.locdev_inc_asp_db
-
 app = Flask(__name__)
 # FlaskJSON(app)
 
 with open('./config.yaml') as ymlf:
     yaml_out = yaml.load(ymlf)
+
+
+client=pymongo.MongoClient()
+db_dev=client.yaml_out['mongo_db_schema_name']
+
 
 urls = "https://slack.com/api/chat.postMessage"
 Content_type = "application/json"
