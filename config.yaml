@@ -1,0 +1,43 @@
+OAuthAccessToken : <YourOauthTocken>
+BotUserOAuthAccessToken : <YourBotUserOauthTocken>
+token: <YourTocken>
+note_keys : 
+- take notes
+- note that
+- note
+
+add_keys:
+- also add
+- add this
+
+checklist:
+- task
+- work
+- checklist
+- assignment
+- chore
+- duty
+- job
+
+pull:
+- pull
+- give
+- see
+- show
+- check
+
+changes:
+- cross
+- mark as complete
+- mask complete
+- consider done
+- tick
+- done
+- finished
+- close
+
+
+
+logfile_dir: /directory/to/logs
+logfile_form: '%(asctime)s :: %(levelname)s \t - %(message)s'
+log_level: NOTSET
